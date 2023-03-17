@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 225, 225);
+    font-family: Arial, sans-serif;
+}
+.bgForAll{
+    background-color: white;
+}
+header{
+    padding:20px; 
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+}
+.headerText{
+    margin-bottom: 20px;
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+}
+
+img{
+    width: 100%;
+}
+.left-section{
+    margin-right: 8px;
+    width: 75%;
+}
+aside{
+    margin-left: 8px;
+    width: 25%;
+}
+aside h1{
+    font-size: 20px;
+}
+.FirstAsideSection{
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+.FirstAsideSection img{
+    margin: 25px 0;
+
+}
+.line-text-height{
+    line-height: 25px;
+}
+.dogTextContainer{
+    margin-top: -5px;
+    padding: 40px 15px;
+}
+.dogTextContainer h1{
+    margin-bottom: 30px;
+}
+.colum1, .colum2{
+    margin-bottom: 20px;
+}
+.colum2{
+    display:flex;
+}
+.colum2Subsection{
+    width: 50%;
+}
+.margin-class{
+    margin-right: 15px;
+}
+.margin-class2{
+    margin-left: 15px;
+}
+footer{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding: 2em;
+    
+}
+.FooterCol h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.FooterCol ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.FooterCol ul li a{
+    text-decoration:none;
+    color: white;
+}
