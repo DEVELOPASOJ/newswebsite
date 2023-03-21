@@ -93,3 +93,11 @@ footer{
     text-decoration:none;
     color: white;
 }
+@media(max-width:800px){
+.mainSection{
+    flex-direction: column;
+}
+aside,.left-section{
+    width:100%;
+}
+}
